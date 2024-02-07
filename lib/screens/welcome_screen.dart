@@ -21,7 +21,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     // await MySharedPreferences.setSharedPreference('welcomeStatus', true);
 
     // ไปยังหน้า Login
-    Navigator.pushReplacementNamed(context, AppRouter.addProduct);
+    Navigator.pushReplacementNamed(context, AppRouter.dashboard);
   }
 
   // ฟังก์ชันกำหนดภาพที่ใช้แสดงใน Intro
